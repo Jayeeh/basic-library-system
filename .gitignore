@@ -1,0 +1,25 @@
+# PHP specific
+vendor/
+composer.lock
+
+# IDE specific
+.vscode/
+.idea/
+
+# Environment specific
+.env
+config.php
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite
+*.sql
+
+# Temporary files
+*.swp
+*.swo
+*~
