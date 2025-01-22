@@ -1,10 +1,10 @@
 <?php
 
 // Database configuration
-$servername = "localhost"; // The database server name
-$username = "root";         // The database username
-$password = "";             // The database password
-$database = "library_books"; // The name of the database to connect to
+$servername = "localhost"; 
+$username = "root";         
+$password = "";             
+$database = "library_books"; 
 
 // Create a connection
 $connection = new mysqli($servername, $username, $password, $database);
